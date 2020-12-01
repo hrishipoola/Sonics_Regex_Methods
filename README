@@ -1,1 +1,7 @@
 # Sonics_Regex_Methods
+
+Today, we'll walk through 3 simple regex methods to split names into first and last names in a dataframe. We'll work with roster data for the '96 Seattle SuperSonics, one of my all-time favorite teams. Led by Payton, Kemp, Schrempf and coach George Karl, they reached the Finals that year, losing to the Bulls in 6.
+
+We'll use BeautifulSoup to scrape roster data from Basketball Reference after a search for Seattle SuperSonics (https://www.basketball-reference.com/teams/SEA/1996.html) and convert to a dataframe. Once we have our players, we'll split player names into first and last names using 3 regex methods, walking through the regex logic and methodology in each.
+
+This simple exercise could be useful for anyone working with string name fields in, for example, customer, applicant, or patient data where first and last names are combined. A similar logic can be used for any string fields that need to be separated (e.g., countries and their capitals). Let's dive in.
